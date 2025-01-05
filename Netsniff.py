@@ -1,5 +1,11 @@
 from scapy.all import sniff, IP, TCP
 
+from scapy.all import sniff
+
+def packet_callback(packet):
+    print(packet.summary())
+
+sniff(prn=packet_callback, count=10)
 from scapy.all import sniff, conf, L3RawSocket
 
 conf.L3socket = L3RawSocket
