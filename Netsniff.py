@@ -75,3 +75,4 @@ if __name__ == "__main__":
     # Wait for the thread to finish
     thread.join()
     print("Sniffing completed.")
+#Output: ![Screenshot 2025-01-07 155333](https://github.com/user-attachments/assets/ef610810-627e-4d4f-9047-354c415b75d3)
